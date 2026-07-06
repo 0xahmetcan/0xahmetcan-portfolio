@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 function BlogCard({
   title,
@@ -7,6 +8,9 @@ function BlogCard({
   description,
   link,
 }) {
+
+  const { t } = useTranslation();
+
   return (
     <div className="rounded-3xl border border-slate-800 bg-slate-900 p-8 transition-all duration-300 hover:-translate-y-2 hover:border-sky-500/40 hover:shadow-xl hover:shadow-sky-500/10">
 
@@ -32,7 +36,7 @@ function BlogCard({
         rel="noopener noreferrer"
         className="mt-8 inline-flex items-center gap-2 text-sky-400 transition hover:text-sky-300"
       >
-        Read Article
+        {t("blog.readArticle")}
 
         <FaArrowRight size={14} />
 

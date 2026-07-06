@@ -1,88 +1,94 @@
+import { useTranslation } from "react-i18next";
 import Button from "./Button";
 
 function HeroContent() {
+
+  const { t } = useTranslation();
+
   return (
     <div>
 
       {/* Badge */}
+
       <div className="mb-6 inline-flex items-center rounded-full border border-sky-500/20 bg-sky-500/10 px-4 py-2 text-sm font-medium text-sky-400">
-        👋 Open to Junior Pentester Opportunities
+        👋 {t("hero.badge")}
       </div>
 
-      {/* Ünvan */}
-      <p className="mb-4 text-sky-400 font-semibold tracking-wide uppercase">
-        Junior Penetration Tester
+      {/* Title */}
+
+      <p className="mb-4 font-semibold uppercase tracking-wide text-sky-400">
+        {t("hero.position")}
       </p>
 
-      {/* Başlık */}
+      {/* Name */}
+
       <h1
-  className="
-  logo-font
-  text-6xl
-  lg:text-7xl
-  font-black
-  leading-none
-  tracking-tight
-  bg-gradient-to-r
-  from-white
-  via-slate-200
-  to-sky-400
-  bg-clip-text
-  text-transparent"
->
-  0xAHMETCAN
-</h1>
+        className="
+          logo-font
+          text-6xl
+          lg:text-7xl
+          font-black
+          leading-none
+          tracking-tight
+          bg-gradient-to-r
+          from-white
+          via-slate-200
+          to-sky-400
+          bg-clip-text
+          text-transparent
+        "
+      >
+        0xAHMETCAN
+      </h1>
 
-      {/* Açıklama */}
+      {/* Description */}
+
       <p className="mt-8 max-w-xl text-lg leading-8 text-slate-400">
-        Passionate about offensive security, web application security, and
-        Active Directory assessments. I enjoy solving CTF challenges,
-        publishing technical write-ups, and continuously improving my
-        cybersecurity skills through hands-on labs and real-world scenarios.
+        {t("hero.description")}
       </p>
 
-      {/* Teknolojiler */}
+      {/* Skills */}
+
       <div className="mt-8 flex flex-wrap gap-3">
 
         <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
-          Web Security
+          {t("hero.skills.web")}
         </span>
 
         <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
-          Active Directory
+          {t("hero.skills.ad")}
         </span>
 
         <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
-          Red Team
+          {t("hero.skills.redteam")}
         </span>
 
         <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
-          CTF Player
+          {t("hero.skills.ctf")}
         </span>
 
       </div>
 
-      {/* Butonlar */}
-     {/* Butonlar */}
+      {/* Buttons */}
 
-<div className="mt-10 flex flex-wrap gap-5">
+      <div className="mt-10 flex flex-wrap gap-5">
 
-  <Button
-    href="https://blog.0xahmetcan.com/wp-content/uploads/2026/07/ahmetcan_resume.pdf"
-    target="_blank"
-  >
-    Download CV
-  </Button>
+        <Button
+          href="https://blog.0xahmetcan.com/wp-content/uploads/2026/07/ahmetcan_resume.pdf"
+          target="_blank"
+        >
+          {t("hero.downloadCV")}
+        </Button>
 
-  <Button
-    variant="secondary"
-    href="https://blog.0xahmetcan.com"
-    target="_blank"
-  >
-    View Blog
-  </Button>
+        <Button
+          variant="secondary"
+          href="https://blog.0xahmetcan.com"
+          target="_blank"
+        >
+          {t("hero.viewBlog")}
+        </Button>
 
-</div>
+      </div>
 
     </div>
   );

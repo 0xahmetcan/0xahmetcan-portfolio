@@ -4,65 +4,60 @@ import portswiggerLogo from "../assets/images/portswigger.png";
 import vulnhubLogo from "../assets/images/vulnhub.png";
 import hackviserLogo from "../assets/images/hackviser.png";
 
-const ctfPlatforms = [
+const ctfPlatforms = (t) => [
   {
     name: "Hack The Box",
     logo: htbLogo,
     username: "0xahmetcan",
-    description:
-      "Hands-on penetration testing labs, Active Directory environments and realistic attack simulations.",
+    description: t("ctfPlatforms.htb.description"),
     profile: "https://app.hackthebox.com/profile/0xahmetcan",
     writeups: "https://blog.0xahmetcan.com/htb",
-    profileButton: "View Profile",
-    writeupButton: "Read HTB Writeups",
+    profileButton: t("ctfPlatforms.htb.profileButton"),
+    writeupButton: t("ctfPlatforms.htb.writeupButton"),
   },
 
   {
     name: "TryHackMe",
     logo: thmLogo,
     username: "0xahmetcan",
-    description:
-      "Practical learning platform focused on offensive security, blue team operations and real-world labs.",
+    description: t("ctfPlatforms.thm.description"),
     profile: "https://tryhackme.com/p/0xahmetcan",
     writeups: "https://blog.0xahmetcan.com/thm",
-    profileButton: "View Profile",
-    writeupButton: "Read THM Writeups",
+    profileButton: t("ctfPlatforms.thm.profileButton"),
+    writeupButton: t("ctfPlatforms.thm.writeupButton"),
   },
 
   {
     name: "PortSwigger Web Security Academy",
     logo: portswiggerLogo,
     username: "0xahmetcan",
-    description:
-      "Advanced web security labs covering XSS, SQL Injection, SSRF, Authentication, CSRF and many more.",
+    description: t("ctfPlatforms.portswigger.description"),
     profile: "https://portswigger.net/web-security",
     writeups: "https://blog.0xahmetcan.com/portswigger",
-    profileButton: "View Academy",
-    writeupButton: "Read Lab Writeups",
+    profileButton: t("ctfPlatforms.portswigger.profileButton"),
+    writeupButton: t("ctfPlatforms.portswigger.writeupButton"),
   },
 
   {
     name: "VulnHub",
     logo: vulnhubLogo,
     username: "0xahmetcan",
-    description:
-      "Downloadable vulnerable machines designed for penetration testing, privilege escalation and red team practice.",
+    description: t("ctfPlatforms.vulnhub.description"),
     profile: "https://www.vulnhub.com/",
     writeups: "https://blog.0xahmetcan.com/vulnhub",
-    profileButton: "Visit VulnHub",
-    writeupButton: "Read VulnHub Writeups",
+    profileButton: t("ctfPlatforms.vulnhub.profileButton"),
+    writeupButton: t("ctfPlatforms.vulnhub.writeupButton"),
   },
 
   {
     name: "Hackviser",
     logo: hackviserLogo,
     username: "0xahmetcan",
-    description:
-      "Cybersecurity challenges, penetration testing exercises and practical security learning paths.",
+    description: t("ctfPlatforms.hackviser.description"),
     profile: "https://hackviser.com",
     writeups: "https://blog.0xahmetcan.com/hackviser",
-    profileButton: "Visit Platform",
-    writeupButton: "Read Challenge Writeups",
+    profileButton: t("ctfPlatforms.hackviser.profileButton"),
+    writeupButton: t("ctfPlatforms.hackviser.writeupButton"),
   },
 ];
 

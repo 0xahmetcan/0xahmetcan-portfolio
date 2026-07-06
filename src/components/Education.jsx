@@ -1,19 +1,24 @@
+import { useTranslation } from "react-i18next";
 import education from "../data/education";
 import EducationCard from "./EducationCard";
 
 function Education() {
 
-  const university = education.filter(
+  const { t } = useTranslation();
+
+  const items = education(t);
+
+  const university = items.filter(
     (item) => item.type === "Education"
   );
 
-  const trainings = education.filter(
+  const trainings = items.filter(
     (item) =>
       item.type === "Training" ||
       item.type === "Training Program"
   );
 
-  const certifications = education.filter(
+  const certifications = items.filter(
     (item) => item.type === "Certification"
   );
 
@@ -29,17 +34,15 @@ function Education() {
         <div className="mb-20 text-center">
 
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-400">
-            Education & Professional Development
+            {t("education.badge")}
           </p>
 
           <h2 className="mt-4 text-5xl font-bold text-white">
-            Continuous Learning
+            {t("education.title")}
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-400">
-            Cybersecurity is a field that requires continuous learning.
-            My journey combines university education, structured training
-            programs, and industry-recognized certifications.
+            {t("education.description")}
           </p>
 
         </div>
@@ -48,7 +51,7 @@ function Education() {
 
           {/* Education */}
 
-          <EducationCard title="🎓 Education">
+          <EducationCard title={t("education.cards.education")}>
 
             {university.map((item) => (
 
@@ -62,7 +65,7 @@ function Education() {
                   {item.subtitle}
                 </p>
 
-                <p className="mt-4 text-sky-400 font-medium">
+                <p className="mt-4 font-medium text-sky-400">
                   {item.year}
                 </p>
 
@@ -72,9 +75,9 @@ function Education() {
 
           </EducationCard>
 
-          {/* Professional Training */}
+          {/* Training */}
 
-          <EducationCard title="🛡 Professional Training">
+          <EducationCard title={t("education.cards.training")}>
 
             <div className="space-y-6">
 
@@ -90,7 +93,7 @@ function Education() {
                     {item.subtitle}
                   </p>
 
-                  <p className="text-sky-400 text-sm mt-1">
+                  <p className="mt-1 text-sm text-sky-400">
                     {item.year}
                   </p>
 
@@ -104,7 +107,7 @@ function Education() {
 
           {/* Certifications */}
 
-          <EducationCard title="📜 Certifications">
+          <EducationCard title={t("education.cards.certifications")}>
 
             <div className="space-y-6">
 
@@ -120,7 +123,7 @@ function Education() {
                     {item.title}
                   </p>
 
-                  <p className="text-sky-400 text-sm mt-1">
+                  <p className="mt-1 text-sm text-sky-400">
                     {item.year}
                   </p>
 

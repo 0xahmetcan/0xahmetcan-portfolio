@@ -1,9 +1,9 @@
-const skills = [
+const skills = (t) => [
   {
-    title: "Offensive Security",
+    title: t("skillsData.offensive.title"),
     level: 90,
     items: [
-      "Web Application Security",
+      t("skillsData.offensive.items.web"),
       "Burp Suite",
       "OWASP Top 10",
       "Active Directory",
@@ -15,22 +15,22 @@ const skills = [
   },
 
   {
-    title: "Blue Team",
+    title: t("skillsData.blue.title"),
     level: 85,
     items: [
       "IBM QRadar",
       "Splunk",
       "FortiSIEM",
       "SOAR",
-      "Incident Response",
-      "Threat Hunting",
-      "IOC Analysis",
+      t("skillsData.blue.items.ir"),
+      t("skillsData.blue.items.th"),
+      t("skillsData.blue.items.ioc"),
       "MITRE ATT&CK"
     ]
   },
 
   {
-    title: "Programming",
+    title: t("skillsData.programming.title"),
     level: 80,
     items: [
       "Python",
@@ -44,7 +44,7 @@ const skills = [
   },
 
   {
-    title: "Systems & DevOps",
+    title: t("skillsData.systems.title"),
     level: 75,
     items: [
       "Linux",

@@ -1,29 +1,29 @@
-const education = [
+const education = (t) => [
   {
     type: "Education",
-    title: "Adana Alparslan Türkeş Science and Technology University",
-    subtitle: "Computer Engineering",
+    title: t("educationData.university.title"),
+    subtitle: t("educationData.university.subtitle"),
     year: "2020 – 2026",
   },
 
   {
     type: "Training Program",
-    title: "Turkey Cyber Homeland Program",
-    subtitle: "National Cyber Security Training Program",
+    title: t("educationData.cyberHomeland.title"),
+    subtitle: t("educationData.cyberHomeland.subtitle"),
     year: "2025",
   },
 
   {
     type: "Training Program",
-    title: "Bilişim Academy",
-    subtitle: "Cyber Security Specialist Training",
+    title: t("educationData.bilisimAcademy.title"),
+    subtitle: t("educationData.bilisimAcademy.subtitle"),
     year: "2024 – 2025",
   },
 
   {
     type: "Certification",
     title: "Cisco Networking Academy",
-    subtitle: "Ethical Hacker",
+    subtitle: t("educationData.ethicalHacker.subtitle"),
     year: "2025",
   },
 
@@ -43,8 +43,8 @@ const education = [
 
   {
     type: "Training",
-    title: "Presidency of Defence Industries (SSB)",
-    subtitle: "National Competency Initiative Career & Talent Meetings",
+    title: t("educationData.ssb.title"),
+    subtitle: t("educationData.ssb.subtitle"),
     year: "2026",
   },
 ];

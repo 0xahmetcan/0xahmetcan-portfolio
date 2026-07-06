@@ -1,11 +1,10 @@
-const projects = [
+const projects = (t) => [
   {
-    title: "0xPortfolio",
-    description:
-      "Personal cybersecurity portfolio built with React and Tailwind CSS.",
+    title: t("projectsData.portfolio.title"),
+    description: t("projectsData.portfolio.description"),
     technologies: [
       "React",
-      "Tailwind",
+      "Tailwind CSS",
       "Vite"
     ],
     github: "https://github.com/0xahmetcan/0xahmetcan-portfolio",
@@ -14,9 +13,8 @@ const projects = [
   },
 
   {
-    title: "SOC Log Analyzer",
-    description:
-      "Security log analysis project for detecting suspicious activities using SIEM concepts.",
+    title: t("projectsData.soc.title"),
+    description: t("projectsData.soc.description"),
     technologies: [
       "Python",
       "QRadar",
@@ -28,9 +26,8 @@ const projects = [
   },
 
   {
-    title: "Active Directory Lab",
-    description:
-      "Hands-on Active Directory environment for privilege escalation and attack simulations.",
+    title: t("projectsData.ad.title"),
+    description: t("projectsData.ad.description"),
     technologies: [
       "Windows Server",
       "BloodHound",
@@ -42,9 +39,8 @@ const projects = [
   },
 
   {
-    title: "Python Network Scanner",
-    description:
-      "Lightweight network scanner built with Python for host discovery and port enumeration.",
+    title: t("projectsData.scanner.title"),
+    description: t("projectsData.scanner.description"),
     technologies: [
       "Python",
       "Sockets",

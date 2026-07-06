@@ -1,7 +1,13 @@
+import { useTranslation } from "react-i18next";
 import ProjectCard from "./ProjectCard";
 import projects from "../data/projects";
 
 function Projects() {
+
+  const { t } = useTranslation();
+
+  const projectList = projects(t);
+
   return (
     <section
       id="projects"
@@ -14,28 +20,30 @@ function Projects() {
         <div className="mb-20 text-center">
 
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-400">
-            Featured Projects
+            {t("projects.badge")}
           </p>
 
           <h2 className="mt-4 text-5xl font-bold text-white">
-            Security Projects & Development
+            {t("projects.title")}
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-400">
-            A selection of personal projects focused on
-            cybersecurity, software development,
-            and automation built to strengthen practical skills.
+            {t("projects.description")}
           </p>
 
         </div>
 
+        {/* Cards */}
+
         <div className="grid gap-8 lg:grid-cols-2">
 
-          {projects.map((project) => (
+          {projectList.map((project) => (
+
             <ProjectCard
               key={project.title}
               {...project}
             />
+
           ))}
 
         </div>

@@ -1,0 +1,309 @@
+{
+  "navbar": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "writeups": "Write-ups",
+    "blog": "Blog",
+    "contact": "Contact",
+    "opentowork": "Open to Work"
+  },
+
+  "about": {
+  "badge": "About Me",
+  "title": "Passionate About Building a Safer Digital World",
+
+  "p1": {
+    "before": "I am a ",
+    "highlight": "Cyber Security Enthusiast",
+    "after": " who is deeply passionate about cybersecurity and continuously improving my offensive and defensive security skills. My interests include Web Application Security, Active Directory Security, Security Operations, Incident Response, Threat Hunting, Vulnerability Assessment, and Penetration Testing."
+  },
+
+  "p2": {
+    "before": "During my ",
+    "highlight": "6-month long-term internship at SOITRON Cyber Security",
+    "after": ", I gained valuable hands-on experience by working with real-world security events, SIEM technologies, alert validation, incident investigation, and security monitoring within a professional Security Operations Center (SOC)."
+  },
+
+  "p3": {
+    "before": "Alongside professional experience, I actively improve my practical skills through Capture The Flag competitions, home laboratory environments, security research, and structured cybersecurity programs including ",
+    "highlight1": "Bilişim Academy",
+    "middle": " and ",
+    "highlight2": "Siber Vatan",
+    "after": ". I strongly believe that continuous learning, curiosity, and hands-on practice are the foundation of becoming a successful cybersecurity professional."
+  },
+
+  "timeline": {
+    "dev": {
+      "title": "Software Development",
+      "desc": "Started my journey in software development, building modern web applications and strengthening programming fundamentals."
+    },
+    "cyber": {
+      "title": "Cyber Security Journey",
+      "desc": "Participated in the Turkey Cyber Homeland (Siber Vatan) Program and completed various cybersecurity training programs while building practical laboratory environments."
+    },
+    "soitron": {
+      "title": "SOITRON Cyber Security Internship",
+      "desc": "Worked within a professional SOC environment, analyzing security alerts, validating incidents, monitoring SIEM solutions, and collaborating with experienced security analysts."
+    },
+    "today": {
+      "year": "Today",
+      "title": "Continuous Growth",
+      "desc": "Expanding my expertise through CTF platforms, penetration testing labs, Active Directory environments, malware research, and technical blogging while preparing for advanced cybersecurity certifications."
+    }
+  }
+},
+
+"blog": {
+  "readArticle": "Read Article"
+},
+
+"blogPreview": {
+  "badge": "Research & Articles",
+  "title": "Knowledge Shared Through Research",
+  "description": "I regularly publish cybersecurity articles, technical research, Active Directory notes, web security techniques, malware analysis, and practical security guides on my personal blog.",
+  "button": "Visit My Blog"
+},
+
+"blogPosts": {
+  "post1": {
+    "title": "Active Directory Privilege Escalation: From Enumeration to Domain Admin",
+    "category": "Active Directory",
+    "description": "A practical guide covering Active Directory enumeration, privilege escalation techniques, BloodHound analysis, Kerberos attacks, and domain compromise methodologies."
+  },
+
+  "post2": {
+    "title": "OWASP Top 10 Explained with Practical Examples",
+    "category": "Web Security",
+    "description": "An in-depth walkthrough of the OWASP Top 10 vulnerabilities with real-world examples, exploitation techniques, and effective mitigation strategies."
+  },
+
+  "post3": {
+    "title": "Building a Home Lab for Penetration Testing",
+    "category": "Cyber Security",
+    "description": "Learn how to build a personal cybersecurity laboratory using VMware, Kali Linux, Windows Server, Active Directory, vulnerable machines, and CTF platforms."
+  }
+},
+
+"contact": {
+  "badge": "Contact",
+  "title": "Let's Connect",
+  "description": "Whether you have a cybersecurity opportunity, collaboration idea, or simply want to connect, feel free to reach out.",
+
+  "email": "Email",
+  "location": "Location",
+  "locationValue": "Ankara, Türkiye",
+
+  "sendEmail": "Send Email",
+  "visitGithub": "Visit GitHub",
+  "viewProfile": "View Profile",
+  "openMaps": "Open Maps"
+},
+
+"ctf": {
+  "badge": "CTF Platforms",
+  "title": "Hands-on Cybersecurity Practice",
+  "description": "I continuously improve my offensive and defensive security skills by solving Capture The Flag challenges, vulnerable machines, web security labs, and documenting my solutions through technical write-ups."
+},
+
+"ctfPlatforms": {
+  "htb": {
+    "description": "Hands-on penetration testing labs, Active Directory environments and realistic attack simulations.",
+    "profileButton": "View Profile",
+    "writeupButton": "Read HTB Write-ups"
+  },
+
+  "thm": {
+    "description": "Practical learning platform focused on offensive security, blue team operations and real-world labs.",
+    "profileButton": "View Profile",
+    "writeupButton": "Read THM Write-ups"
+  },
+
+  "portswigger": {
+    "description": "Advanced web security labs covering XSS, SQL Injection, SSRF, Authentication, CSRF and many more.",
+    "profileButton": "View Academy",
+    "writeupButton": "Read Lab Write-ups"
+  },
+
+  "vulnhub": {
+    "description": "Downloadable vulnerable machines designed for penetration testing, privilege escalation and red team practice.",
+    "profileButton": "Visit VulnHub",
+    "writeupButton": "Read VulnHub Write-ups"
+  },
+
+  "hackviser": {
+    "description": "Cybersecurity challenges, penetration testing exercises and practical security learning paths.",
+    "profileButton": "Visit Platform",
+    "writeupButton": "Read Challenge Write-ups"
+  }
+},
+
+"education": {
+  "badge": "Education & Professional Development",
+  "title": "Continuous Learning",
+  "description": "Cybersecurity is a field that requires continuous learning. My journey combines university education, structured training programs, and industry-recognized certifications.",
+
+  "cards": {
+    "education": "🎓 Education",
+    "training": "🛡 Professional Training",
+    "certifications": "📜 Certifications"
+  }
+},
+
+"educationData": {
+  "university": {
+    "title": "Adana Alparslan Türkeş Science and Technology University",
+    "subtitle": "Computer Engineering"
+  },
+
+  "cyberHomeland": {
+    "title": "Turkey Cyber Homeland Program",
+    "subtitle": "National Cyber Security Training Program"
+  },
+
+  "bilisimAcademy": {
+    "title": "Bilişim Academy",
+    "subtitle": "Cyber Security Specialist Training"
+  },
+
+  "ethicalHacker": {
+    "subtitle": "Ethical Hacker"
+  },
+
+  "ssb": {
+    "title": "Presidency of Defence Industries (SSB)",
+    "subtitle": "National Competency Initiative Career & Talent Meetings"
+  }
+},
+
+"experience": {
+  "badge": "Professional Experience",
+  "title": "My Professional Journey",
+  "description": "My experience combines software development, security operations, and hands-on cybersecurity practice, allowing me to build both offensive and defensive security skills."
+},
+
+"experienceData": {
+  "soitron": {
+    "position": "Junior SOC Analyst Intern",
+    "description": "Worked within a professional Security Operations Center (SOC), monitoring security events, validating alerts, and responding to incidents using enterprise SIEM solutions."
+  },
+
+  "hizliimzala": {
+    "position": "Backend Developer Intern",
+    "description": "Developed backend services for an electronic signature platform focusing on authentication, API development, and digital signature management."
+  },
+
+  "hizliakademi": {
+    "position": "Frontend Developer Intern",
+    "description": "Built responsive user interfaces and improved user experience for an online education platform using modern frontend technologies."
+  }
+},
+
+"footer": {
+  "description": "Cyber Security Enthusiast focused on offensive security, defensive security, Active Directory and continuous learning.",
+
+  "navigation": "Navigation",
+  "home": "Home",
+  "about": "About",
+  "skills": "Skills",
+  "experience": "Experience",
+  "projects": "Projects",
+  "labs": "Labs",
+
+  "contact": "Contact",
+
+  "philosophy": "Philosophy",
+
+  "quote": "Continuous learning, curiosity, and hands-on practice are the foundation of becoming a better cybersecurity professional.",
+
+  "copyright": "© 2026 Ahmet Can Aytekin. All rights reserved.",
+
+  "builtWith": "Built with"
+},
+
+"hero": {
+  "badge": "Open to Junior Pentester Opportunities",
+  "position": "Junior Penetration Tester",
+
+  "description": "Passionate about offensive security, web application security, and Active Directory assessments. I enjoy solving CTF challenges, publishing technical write-ups, and continuously improving my cybersecurity skills through hands-on labs and real-world scenarios.",
+
+  "downloadCV": "Download CV",
+  "viewBlog": "View Blog",
+
+  "skills": {
+    "web": "Web Security",
+    "ad": "Active Directory",
+    "redteam": "Red Team",
+    "ctf": "CTF Player"
+  }
+},
+
+"photo": {
+  "position": "Junior Penetration Tester",
+  "location": "Ankara, Türkiye",
+  "status": "Open to Work"
+},
+
+"projects": {
+  "badge": "Featured Projects",
+  "title": "Security Projects & Development",
+  "description": "A selection of personal projects focused on cybersecurity, software development, and automation built to strengthen practical skills.",
+  "liveDemo": "Live Demo"
+},
+
+"projectsData": {
+  "portfolio": {
+    "title": "0xPortfolio",
+    "description": "Personal cybersecurity portfolio built with React and Tailwind CSS."
+  },
+
+  "soc": {
+    "title": "SOC Log Analyzer",
+    "description": "Security log analysis project for detecting suspicious activities using SIEM concepts."
+  },
+
+  "ad": {
+    "title": "Active Directory Lab",
+    "description": "Hands-on Active Directory environment for privilege escalation and attack simulations."
+  },
+
+  "scanner": {
+    "title": "Python Network Scanner",
+    "description": "Lightweight network scanner built with Python for host discovery and port enumeration."
+  }
+},
+
+"skills": {
+  "badge": "Technical Skills",
+  "title": "Technologies & Security Expertise",
+  "description": "My expertise covers offensive security, security operations, software development, and infrastructure technologies, supported by continuous hands-on practice."
+},
+
+"skillsData": {
+  "offensive": {
+    "title": "Offensive Security",
+    "items": {
+      "web": "Web Application Security"
+    }
+  },
+
+  "blue": {
+    "title": "Blue Team",
+    "items": {
+      "ir": "Incident Response",
+      "th": "Threat Hunting",
+      "ioc": "IOC Analysis"
+    }
+  },
+
+  "programming": {
+    "title": "Programming"
+  },
+
+  "systems": {
+    "title": "Systems & DevOps"
+  }
+}
+
+}
+

@@ -1,4 +1,9 @@
+import { useTranslation } from "react-i18next";
+
 function About() {
+
+  const { t } = useTranslation();
+
   return (
     <section
       id="about"
@@ -11,71 +16,66 @@ function About() {
         <div className="mb-20 max-w-3xl">
 
           <p className="text-sky-400 uppercase tracking-[0.25em] text-sm font-semibold">
-            About Me
+            {t("about.badge")}
           </p>
 
           <h2 className="mt-4 text-5xl font-bold text-white leading-tight">
-            Passionate About Building
-            a Safer Digital World
+            {t("about.title")}
           </h2>
 
         </div>
 
         <div className="grid lg:grid-cols-2 gap-20">
 
-          {/* Left Content */}
+          {/* Left */}
 
           <div>
 
             <p className="text-lg leading-9 text-slate-400">
 
-              I am a <span className="text-white font-semibold">
-                Cyber Security Enthusiast
-              </span>{" "}
-              who is deeply passionate about cybersecurity and
-              continuously improving my offensive and defensive
-              security skills.
+              {t("about.p1.before")}
 
-              My interests include Web Application Security,
-              Active Directory Security, Security Operations,
-              Incident Response, Threat Hunting,
-              Vulnerability Assessment, and Penetration Testing.
+              <span className="text-white font-semibold">
+                {t("about.p1.highlight")}
+              </span>
+
+              {t("about.p1.after")}
 
             </p>
 
             <p className="mt-8 text-lg leading-9 text-slate-400">
 
-              During my <span className="font-semibold text-white">
-                6-month long-term internship at SOITRON Cyber Security
-              </span>,
-              I gained valuable hands-on experience by working with
-              real-world security events, SIEM technologies,
-              alert validation, incident investigation,
-              and security monitoring within a professional
-              Security Operations Center (SOC).
+              {t("about.p2.before")}
+
+              <span className="font-semibold text-white">
+
+                {t("about.p2.highlight")}
+
+              </span>
+
+              {t("about.p2.after")}
 
             </p>
 
             <p className="mt-8 text-lg leading-9 text-slate-400">
 
-              Alongside professional experience,
-              I actively improve my practical skills through
-              Capture The Flag competitions,
-              home laboratory environments,
-              security research,
-              and structured cybersecurity programs including
+              {t("about.p3.before")}
+
               <span className="font-semibold text-white">
-                {" "}Bilişim Academy
-              </span>
-              {" "}and
-              <span className="font-semibold text-white">
-                {" "}Siber Vatan.
+
+                {t("about.p3.highlight1")}
+
               </span>
 
-              I strongly believe that continuous learning,
-              curiosity,
-              and hands-on practice are the foundation of becoming
-              a successful cybersecurity professional.
+              {t("about.p3.middle")}
+
+              <span className="font-semibold text-white">
+
+                {t("about.p3.highlight2")}
+
+              </span>
+
+              {t("about.p3.after")}
 
             </p>
 
@@ -88,17 +88,21 @@ function About() {
             <div>
 
               <span className="text-sky-400 font-semibold">
+
                 2023
+
               </span>
 
               <h3 className="mt-2 text-2xl font-semibold text-white">
-                Software Development
+
+                {t("about.timeline.dev.title")}
+
               </h3>
 
               <p className="mt-2 text-slate-400">
-                Started my journey in software development,
-                building modern web applications and strengthening
-                programming fundamentals.
+
+                {t("about.timeline.dev.desc")}
+
               </p>
 
             </div>
@@ -106,18 +110,21 @@ function About() {
             <div>
 
               <span className="text-sky-400 font-semibold">
+
                 2024
+
               </span>
 
               <h3 className="mt-2 text-2xl font-semibold text-white">
-                Cyber Security Journey
+
+                {t("about.timeline.cyber.title")}
+
               </h3>
 
               <p className="mt-2 text-slate-400">
-                Participated in the Turkey Cyber Homeland
-                (Siber Vatan) Program and completed various
-                cybersecurity training programs while building
-                practical laboratory environments.
+
+                {t("about.timeline.cyber.desc")}
+
               </p>
 
             </div>
@@ -125,19 +132,21 @@ function About() {
             <div>
 
               <span className="text-sky-400 font-semibold">
+
                 2025
+
               </span>
 
               <h3 className="mt-2 text-2xl font-semibold text-white">
-                SOITRON Cyber Security Internship
+
+                {t("about.timeline.soitron.title")}
+
               </h3>
 
               <p className="mt-2 text-slate-400">
-                Worked within a professional SOC environment,
-                analyzing security alerts,
-                validating incidents,
-                monitoring SIEM solutions,
-                and collaborating with experienced security analysts.
+
+                {t("about.timeline.soitron.desc")}
+
               </p>
 
             </div>
@@ -145,21 +154,21 @@ function About() {
             <div>
 
               <span className="text-sky-400 font-semibold">
-                Today
+
+                {t("about.timeline.today.year")}
+
               </span>
 
               <h3 className="mt-2 text-2xl font-semibold text-white">
-                Continuous Growth
+
+                {t("about.timeline.today.title")}
+
               </h3>
 
               <p className="mt-2 text-slate-400">
-                Expanding my expertise through
-                CTF platforms,
-                penetration testing labs,
-                Active Directory environments,
-                malware research,
-                and technical blogging while preparing for
-                advanced cybersecurity certifications.
+
+                {t("about.timeline.today.desc")}
+
               </p>
 
             </div>

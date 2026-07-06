@@ -5,9 +5,13 @@ import {
   FaMapMarkerAlt,
 } from "react-icons/fa";
 
+import { useTranslation } from "react-i18next";
 import ContactCard from "./ContactCard";
 
 function Contact() {
+
+  const { t } = useTranslation();
+
   return (
     <section
       id="contact"
@@ -20,17 +24,15 @@ function Contact() {
         <div className="mb-20 text-center">
 
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-400">
-            Contact
+            {t("contact.badge")}
           </p>
 
           <h2 className="mt-4 text-5xl font-bold text-white">
-            Let's Connect
+            {t("contact.title")}
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-400">
-            Whether you have a cybersecurity opportunity,
-            collaboration idea, or simply want to connect,
-            feel free to reach out.
+            {t("contact.description")}
           </p>
 
         </div>
@@ -39,10 +41,10 @@ function Contact() {
 
           <ContactCard
             icon={<FaEnvelope />}
-            title="Email"
+            title={t("contact.email")}
             value="ahmetcandev01@gmail.com"
             href="mailto:ahmetcandev01@gmail.com"
-            button="Send Email"
+            button={t("contact.sendEmail")}
           />
 
           <ContactCard
@@ -50,7 +52,7 @@ function Contact() {
             title="GitHub"
             value="github.com/0xahmetcan"
             href="https://github.com/0xahmetcan"
-            button="Visit GitHub"
+            button={t("contact.visitGithub")}
           />
 
           <ContactCard
@@ -58,15 +60,15 @@ function Contact() {
             title="LinkedIn"
             value="linkedin.com/in/ahmetcanaytekin"
             href="https://linkedin.com/in/ahmetcanaytekin"
-            button="View Profile"
+            button={t("contact.viewProfile")}
           />
 
           <ContactCard
             icon={<FaMapMarkerAlt />}
-            title="Location"
-            value="Ankara, Türkiye"
+            title={t("contact.location")}
+            value={t("contact.locationValue")}
             href="https://maps.google.com/?q=Ankara"
-            button="Open Maps"
+            button={t("contact.openMaps")}
           />
 
         </div>

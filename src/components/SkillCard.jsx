@@ -8,13 +8,13 @@ function SkillCard({ title, level, items }) {
           {title}
         </h3>
 
-        <span className="text-sky-400 font-semibold">
+        <span className="font-semibold text-sky-400">
           {level}%
         </span>
 
       </div>
 
-      <div className="mt-5 h-2 rounded-full bg-slate-800 overflow-hidden">
+      <div className="mt-5 h-2 overflow-hidden rounded-full bg-slate-800">
 
         <div
           className="h-full rounded-full bg-gradient-to-r from-sky-500 to-cyan-400"
@@ -26,12 +26,14 @@ function SkillCard({ title, level, items }) {
       <div className="mt-8 flex flex-wrap gap-3">
 
         {items.map((item) => (
+
           <span
             key={item}
             className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300"
           >
             {item}
           </span>
+
         ))}
 
       </div>

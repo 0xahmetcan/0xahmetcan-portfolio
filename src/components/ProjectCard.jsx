@@ -1,12 +1,16 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 function ProjectCard({
   title,
   description,
- technologies,
+  technologies,
   github,
   demo,
 }) {
+
+  const { t } = useTranslation();
+
   return (
     <div className="group rounded-3xl border border-slate-800 bg-slate-900 p-8 transition-all duration-300 hover:-translate-y-2 hover:border-sky-500/40 hover:shadow-xl hover:shadow-sky-500/10">
 
@@ -50,7 +54,7 @@ function ProjectCard({
           className="inline-flex items-center gap-2 rounded-xl border border-slate-700 px-5 py-3 text-slate-300 transition hover:border-sky-500 hover:text-sky-400"
         >
           <FaExternalLinkAlt />
-          Live Demo
+          {t("projects.liveDemo")}
         </a>
 
       </div>

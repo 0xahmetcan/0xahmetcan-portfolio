@@ -1,7 +1,13 @@
+import { useTranslation } from "react-i18next";
 import SkillCard from "./SkillCard";
 import skills from "../data/skills";
 
 function Skills() {
+
+  const { t } = useTranslation();
+
+  const skillList = skills(t);
+
   return (
     <section
       id="skills"
@@ -9,31 +15,35 @@ function Skills() {
     >
       <div className="mx-auto max-w-7xl px-6">
 
+        {/* Heading */}
+
         <div className="mb-20 text-center">
 
-          <p className="text-sky-400 uppercase tracking-[0.25em] text-sm font-semibold">
-            Technical Skills
+          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-400">
+            {t("skills.badge")}
           </p>
 
           <h2 className="mt-4 text-5xl font-bold text-white">
-            Technologies & Security Expertise
+            {t("skills.title")}
           </h2>
 
-          <p className="mt-6 mx-auto max-w-3xl text-lg text-slate-400 leading-8">
-            My expertise covers offensive security, security operations,
-            software development, and infrastructure technologies,
-            supported by continuous hands-on practice.
+          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-400">
+            {t("skills.description")}
           </p>
 
         </div>
 
+        {/* Cards */}
+
         <div className="grid gap-8 md:grid-cols-2">
 
-          {skills.map((skill) => (
+          {skillList.map((skill) => (
+
             <SkillCard
               key={skill.title}
               {...skill}
             />
+
           ))}
 
         </div>

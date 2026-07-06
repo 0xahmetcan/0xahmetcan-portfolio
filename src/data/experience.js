@@ -1,10 +1,9 @@
-const experience = [
+const experience = (t) => [
   {
     year: "2025",
     company: "SOITRON Cyber Security",
-    position: "Junior SOC Analyst Intern",
-    description:
-      "Worked within a professional Security Operations Center (SOC), monitoring security events, validating alerts, and responding to incidents using enterprise SIEM solutions.",
+    position: t("experienceData.soitron.position"),
+    description: t("experienceData.soitron.description"),
 
     technologies: [
       "IBM QRadar",
@@ -19,10 +18,9 @@ const experience = [
   {
     year: "2024",
     company: "Hızlı İmzala",
-    position: "Backend Developer Intern",
+    position: t("experienceData.hizliimzala.position"),
 
-    description:
-      "Developed backend services for an electronic signature platform focusing on authentication, API development, and digital signature management.",
+    description: t("experienceData.hizliimzala.description"),
 
     technologies: [
       "ASP.NET",
@@ -36,10 +34,9 @@ const experience = [
   {
     year: "2024",
     company: "Hızlı Akademi",
-    position: "Frontend Developer Intern",
+    position: t("experienceData.hizliakademi.position"),
 
-    description:
-      "Built responsive user interfaces and improved user experience for an online education platform using modern frontend technologies.",
+    description: t("experienceData.hizliakademi.description"),
 
     technologies: [
       "React",

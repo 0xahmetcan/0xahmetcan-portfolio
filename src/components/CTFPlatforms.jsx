@@ -1,8 +1,13 @@
+import { useTranslation } from "react-i18next";
 import ctfPlatforms from "../data/ctfPlatforms";
 import CTFCard from "./CTFCard";
 
-
 function CTFPlatforms() {
+
+  const { t } = useTranslation();
+
+  const platforms = ctfPlatforms(t);
+
   return (
     <section
       id="ctf"
@@ -15,18 +20,15 @@ function CTFPlatforms() {
         <div className="mb-20 text-center">
 
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-400">
-            CTF Platforms
+            {t("ctf.badge")}
           </p>
 
           <h2 className="mt-4 text-5xl font-bold text-white">
-            Hands-on Cybersecurity Practice
+            {t("ctf.title")}
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-400">
-            I continuously improve my offensive and defensive security skills
-            by solving Capture The Flag challenges, vulnerable machines,
-            web security labs, and documenting my solutions through
-            technical writeups.
+            {t("ctf.description")}
           </p>
 
         </div>
@@ -35,7 +37,7 @@ function CTFPlatforms() {
 
         <div className="grid gap-8 md:grid-cols-2">
 
-          {ctfPlatforms.map((platform) => (
+          {platforms.map((platform) => (
 
             <CTFCard
               key={platform.name}

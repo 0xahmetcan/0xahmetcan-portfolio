@@ -1,0 +1,307 @@
+{
+  "navbar": {
+    "about": "Hakkımda",
+    "experience": "Deneyim",
+    "projects": "Projeler",
+    "writeups": "Write-up'lar",
+    "blog": "Blog",
+    "contact": "İletişim",
+    "opentowork": "İşe Açığım"
+  },
+
+  "about": {
+  "badge": "Hakkımda",
+  "title": "Daha Güvenli Bir Dijital Dünya İnşa Etmeye Tutkuluyum",
+
+  "p1": {
+    "before": "Ben, ",
+    "highlight": "Siber Güvenlik Meraklısı",
+    "after": " olarak siber güvenliğe büyük ilgi duyuyor ve hem ofansif hem de defansif güvenlik alanındaki yetkinliklerimi sürekli geliştirmeye çalışıyorum. İlgi alanlarım arasında Web Uygulama Güvenliği, Active Directory Güvenliği, Güvenlik Operasyonları (SOC), Olay Müdahalesi, Threat Hunting, Zafiyet Analizi ve Sızma Testleri bulunmaktadır."
+  },
+
+  "p2": {
+    "before": "",
+    "highlight": "SOITRON Cyber Security",
+    "after": " bünyesinde gerçekleştirdiğim 6 aylık uzun dönem staj sürecinde gerçek güvenlik olayları, SIEM teknolojileri, alarm doğrulama, olay inceleme ve profesyonel bir Güvenlik Operasyon Merkezi (SOC) içerisinde güvenlik izleme süreçlerinde aktif olarak görev alarak önemli deneyimler kazandım."
+  },
+
+  "p3": {
+    "before": "Profesyonel deneyimimin yanı sıra Capture The Flag yarışmaları, ev laboratuvarı ortamları, güvenlik araştırmaları ve ",
+    "highlight1": "Bilişim Academy",
+    "middle": " ile ",
+    "highlight2": "Siber Vatan",
+    "after": " gibi eğitim programları sayesinde teknik yetkinliklerimi sürekli geliştiriyorum. Sürekli öğrenmenin, merak duygusunun ve uygulamalı çalışmanın başarılı bir siber güvenlik uzmanı olmanın temel taşları olduğuna inanıyorum."
+  },
+
+  "timeline": {
+    "dev": {
+      "title": "Yazılım Geliştirme",
+      "desc": "Modern web uygulamaları geliştirerek ve programlama temellerimi güçlendirerek yazılım geliştirme yolculuğuma başladım."
+    },
+    "cyber": {
+      "title": "Siber Güvenlik Yolculuğu",
+      "desc": "Siber Vatan Programı'na katıldım, çeşitli siber güvenlik eğitimlerini tamamladım ve uygulamalı laboratuvar ortamları oluşturdum."
+    },
+    "soitron": {
+      "title": "SOITRON Siber Güvenlik Stajı",
+      "desc": "Profesyonel bir SOC ortamında güvenlik alarmlarını analiz ettim, olay doğrulama süreçlerinde görev aldım, SIEM çözümlerini izledim ve deneyimli güvenlik analistleriyle birlikte çalıştım."
+    },
+    "today": {
+      "year": "Bugün",
+      "title": "Sürekli Gelişim",
+      "desc": "CTF platformları, sızma testi laboratuvarları, Active Directory ortamları, zararlı yazılım araştırmaları ve teknik blog yazılarıyla kendimi geliştirmeye devam ederken ileri seviye siber güvenlik sertifikalarına hazırlanıyorum."
+    }
+  }
+},
+
+"blog": {
+  "readArticle": "Makaleyi Oku"
+},
+
+"blogPreview": {
+  "badge": "Araştırmalar & Makaleler",
+  "title": "Araştırmalarla Paylaşılan Bilgi",
+  "description": "Kişisel blogumda düzenli olarak siber güvenlik makaleleri, teknik araştırmalar, Active Directory notları, web güvenliği teknikleri, zararlı yazılım analizleri ve uygulamalı güvenlik rehberleri paylaşıyorum.",
+  "button": "Blogumu Ziyaret Et"
+},
+
+"blogPosts": {
+  "post1": {
+    "title": "Active Directory Yetki Yükseltme: Enumeration'dan Domain Admin'e",
+    "category": "Active Directory",
+    "description": "Active Directory enumeration, yetki yükseltme teknikleri, BloodHound analizi, Kerberos saldırıları ve domain ele geçirme yöntemlerini uygulamalı olarak anlatan kapsamlı rehber."
+  },
+
+  "post2": {
+    "title": "OWASP Top 10 Gerçek Hayattan Örneklerle Açıklaması",
+    "category": "Web Güvenliği",
+    "description": "OWASP Top 10 güvenlik açıklarını gerçek senaryolar, istismar teknikleri ve korunma yöntemleriyle ayrıntılı olarak inceleyen rehber."
+  },
+
+  "post3": {
+    "title": "Penetrasyon Testi İçin Profesyonel Bir Home Lab Kurulumu",
+    "category": "Siber Güvenlik",
+    "description": "VMware, Kali Linux, Windows Server, Active Directory, zafiyetli makineler ve CTF platformlarını kullanarak profesyonel bir siber güvenlik laboratuvarı oluşturmayı öğrenin."
+  }
+},
+
+"contact": {
+  "badge": "İletişim",
+  "title": "İletişime Geçelim",
+  "description": "Bir siber güvenlik fırsatı, iş birliği fikri veya sadece tanışmak için benimle dilediğiniz zaman iletişime geçebilirsiniz.",
+
+  "email": "E-posta",
+  "location": "Konum",
+  "locationValue": "Ankara, Türkiye",
+
+  "sendEmail": "E-posta Gönder",
+  "visitGithub": "GitHub'a Git",
+  "viewProfile": "Profili Gör",
+  "openMaps": "Haritada Aç"
+},
+
+"ctf": {
+  "badge": "CTF Platformları",
+  "title": "Uygulamalı Siber Güvenlik Deneyimi",
+  "description": "Capture The Flag yarışmaları, zafiyetli makineler ve web güvenliği laboratuvarları üzerinde çalışarak hem ofansif hem de defansif güvenlik becerilerimi geliştiriyor, çözümlerimi teknik write-up'lar olarak dokümante ediyorum."
+},
+
+"ctfPlatforms": {
+  "htb": {
+    "description": "Uygulamalı sızma testi laboratuvarları, Active Directory ortamları ve gerçekçi saldırı senaryoları.",
+    "profileButton": "Profili Gör",
+    "writeupButton": "HTB Write-up'larını Oku"
+  },
+
+  "thm": {
+    "description": "Ofansif güvenlik, Blue Team operasyonları ve gerçek hayat laboratuvarlarına odaklanan uygulamalı eğitim platformu.",
+    "profileButton": "Profili Gör",
+    "writeupButton": "THM Write-up'larını Oku"
+  },
+
+  "portswigger": {
+    "description": "XSS, SQL Injection, SSRF, Authentication, CSRF ve daha birçok konuda gelişmiş web güvenliği laboratuvarları.",
+    "profileButton": "Akademiyi Ziyaret Et",
+    "writeupButton": "Lab Write-up'larını Oku"
+  },
+
+  "vulnhub": {
+    "description": "Sızma testleri, yetki yükseltme ve Red Team çalışmaları için hazırlanmış indirilebilir zafiyetli makineler.",
+    "profileButton": "VulnHub'a Git",
+    "writeupButton": "VulnHub Write-up'larını Oku"
+  },
+
+  "hackviser": {
+    "description": "Siber güvenlik görevleri, sızma testi alıştırmaları ve uygulamalı öğrenme yolları.",
+    "profileButton": "Platformu Ziyaret Et",
+    "writeupButton": "Challenge Write-up'larını Oku"
+  }
+},
+
+"education": {
+  "badge": "Eğitim & Profesyonel Gelişim",
+  "title": "Sürekli Öğrenme",
+  "description": "Siber güvenlik sürekli öğrenmeyi gerektiren bir alandır. Yolculuğum üniversite eğitimi, yapılandırılmış eğitim programları ve sektör tarafından tanınan sertifikalarla şekillenmektedir.",
+
+  "cards": {
+    "education": "🎓 Eğitim",
+    "training": "🛡 Profesyonel Eğitimler",
+    "certifications": "📜 Sertifikalar"
+  }
+},
+
+"educationData": {
+  "university": {
+    "title": "Adana Alparslan Türkeş Bilim ve Teknoloji Üniversitesi",
+    "subtitle": "Bilgisayar Mühendisliği"
+  },
+
+  "cyberHomeland": {
+    "title": "Türkiye Siber Vatan Programı",
+    "subtitle": "Ulusal Siber Güvenlik Eğitim Programı"
+  },
+
+  "bilisimAcademy": {
+    "title": "Bilişim Academy",
+    "subtitle": "Siber Güvenlik Uzmanlık Eğitimi"
+  },
+
+  "ethicalHacker": {
+    "subtitle": "Etik Hacker"
+  },
+
+  "ssb": {
+    "title": "Savunma Sanayii Başkanlığı (SSB)",
+    "subtitle": "Milli Yetkinlik Hamlesi Kariyer ve Yetenek Buluşmaları"
+  }
+},
+
+"experience": {
+  "badge": "Profesyonel Deneyim",
+  "title": "Profesyonel Yolculuğum",
+  "description": "Deneyimlerim yazılım geliştirme, güvenlik operasyonları ve uygulamalı siber güvenlik çalışmalarını bir araya getirerek hem ofansif hem de defansif güvenlik alanlarında kendimi geliştirmemi sağladı."
+},
+
+"experienceData": {
+  "soitron": {
+    "position": "Junior SOC Analisti Stajyeri",
+    "description": "Kurumsal bir Güvenlik Operasyon Merkezi (SOC) ortamında güvenlik olaylarını izledim, alarmları doğruladım ve kurumsal SIEM çözümlerini kullanarak olay müdahale süreçlerinde görev aldım."
+  },
+
+  "hizliimzala": {
+    "position": "Backend Geliştirici Stajyeri",
+    "description": "Kimlik doğrulama, REST API geliştirme ve dijital imza yönetimine odaklanarak elektronik imza platformunun backend servislerini geliştirdim."
+  },
+
+  "hizliakademi": {
+    "position": "Frontend Geliştirici Stajyeri",
+    "description": "Modern frontend teknolojileri kullanarak çevrim içi eğitim platformu için duyarlı kullanıcı arayüzleri geliştirdim ve kullanıcı deneyimini iyileştirdim."
+  }
+},
+
+"footer": {
+  "description": "Ofansif güvenlik, defansif güvenlik, Active Directory ve sürekli öğrenmeye odaklanan bir siber güvenlik meraklısı.",
+
+  "navigation": "Navigasyon",
+  "home": "Ana Sayfa",
+  "about": "Hakkımda",
+  "skills": "Yetenekler",
+  "experience": "Deneyim",
+  "projects": "Projeler",
+  "labs": "Laboratuvarlar",
+
+  "contact": "İletişim",
+
+  "philosophy": "Felsefem",
+
+  "quote": "Sürekli öğrenme, merak ve uygulamalı çalışma daha iyi bir siber güvenlik uzmanı olmanın temelidir.",
+
+  "copyright": "© 2026 Ahmet Can Aytekin. Tüm hakları saklıdır.",
+
+  "builtWith": "Geliştirildi"
+},
+
+"hero": {
+  "badge": "Junior Pentester Pozisyonlarına Açığım",
+  "position": "Junior Penetrasyon Test Uzmanı",
+
+  "description": "Ofansif güvenlik, web uygulama güvenliği ve Active Directory güvenliği alanlarına ilgi duyuyorum. CTF görevleri çözmekten, teknik write-up'lar hazırlamaktan ve uygulamalı laboratuvar ortamlarında kendimi sürekli geliştirerek gerçek dünya siber güvenlik senaryoları üzerinde çalışmaktan keyif alıyorum.",
+
+  "downloadCV": "CV'yi İndir",
+  "viewBlog": "Blogu Görüntüle",
+
+  "skills": {
+    "web": "Web Güvenliği",
+    "ad": "Active Directory",
+    "redteam": "Red Team",
+    "ctf": "CTF Oyuncusu"
+  }
+},
+
+"photo": {
+  "position": "Junior Penetrasyon Test Uzmanı",
+  "location": "Ankara, Türkiye",
+  "status": "İş Fırsatlarına Açık"
+},
+
+"projects": {
+  "badge": "Öne Çıkan Projeler",
+  "title": "Siber Güvenlik Projeleri ve Yazılım Geliştirme",
+  "description": "Siber güvenlik, yazılım geliştirme ve otomasyon alanlarında uygulamalı deneyim kazanmak amacıyla geliştirdiğim kişisel projelerden seçilmiş çalışmalar.",
+  "liveDemo": "Canlı Demo"
+},
+
+"projectsData": {
+  "portfolio": {
+    "title": "0xPortfolio",
+    "description": "React ve Tailwind CSS kullanılarak geliştirilen kişisel siber güvenlik portföyü."
+  },
+
+  "soc": {
+    "title": "SOC Log Analiz Aracı",
+    "description": "SIEM kavramlarını kullanarak şüpheli aktiviteleri tespit etmeye yönelik güvenlik log analizi projesi."
+  },
+
+  "ad": {
+    "title": "Active Directory Laboratuvarı",
+    "description": "Yetki yükseltme ve saldırı senaryoları için oluşturulmuş uygulamalı Active Directory laboratuvarı."
+  },
+
+  "scanner": {
+    "title": "Python Ağ Tarayıcısı",
+    "description": "Host keşfi ve port taraması için Python ile geliştirilmiş hafif bir ağ tarayıcısı."
+  }
+},
+
+"skills": {
+  "badge": "Teknik Yetenekler",
+  "title": "Teknolojiler ve Siber Güvenlik Uzmanlığı",
+  "description": "Yetkinliklerim ofansif güvenlik, güvenlik operasyonları, yazılım geliştirme ve altyapı teknolojilerini kapsamaktadır. Tüm bu alanlarda uygulamalı çalışmalarla kendimi sürekli geliştirmekteyim."
+},
+
+"skillsData": {
+  "offensive": {
+    "title": "Ofansif Güvenlik",
+    "items": {
+      "web": "Web Uygulama Güvenliği"
+    }
+  },
+
+  "blue": {
+    "title": "Blue Team",
+    "items": {
+      "ir": "Olay Müdahalesi",
+      "th": "Tehdit Avcılığı",
+      "ioc": "IOC Analizi"
+    }
+  },
+
+  "programming": {
+    "title": "Programlama"
+  },
+
+  "systems": {
+    "title": "Sistemler & DevOps"
+  }
+}
+}
