@@ -40,3 +40,21 @@ font-family: "JetBrains Mono";
 
 }
 
+.nav-link{
+    @apply text-slate-300 transition duration-300 hover:text-sky-400 relative;
+}
+
+.nav-link::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-8px;
+    width:0;
+    height:2px;
+    background:#0EA5E9;
+    transition:.3s;
+}
+
+.nav-link:hover::after{
+    width:100%;
+}

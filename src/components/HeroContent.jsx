@@ -16,24 +16,22 @@ function HeroContent() {
 
       {/* Başlık */}
       <h1
-        className="
-          logo-font
-          text-6xl
-          sm:text-7xl
-          lg:text-8xl
-          font-black
-          leading-none
-          tracking-tight
-          bg-gradient-to-r
-          from-white
-          via-slate-200
-          to-sky-400
-          bg-clip-text
-          text-transparent
-        "
-      >
-        0xAHMETCAN
-      </h1>
+  className="
+  logo-font
+  text-6xl
+  lg:text-7xl
+  font-black
+  leading-none
+  tracking-tight
+  bg-gradient-to-r
+  from-white
+  via-slate-200
+  to-sky-400
+  bg-clip-text
+  text-transparent"
+>
+  0xAHMETCAN
+</h1>
 
       {/* Açıklama */}
       <p className="mt-8 max-w-xl text-lg leading-8 text-slate-400">

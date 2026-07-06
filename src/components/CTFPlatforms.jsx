@@ -1,6 +1,7 @@
 import ctfPlatforms from "../data/ctfPlatforms";
 import CTFCard from "./CTFCard";
 
+
 function CTFPlatforms() {
   return (
     <section

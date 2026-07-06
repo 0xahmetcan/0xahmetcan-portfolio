@@ -1,77 +1,70 @@
-import { Menu, X } from "lucide-react";
-import { useState } from "react";
-
-import { navigation } from "../data/navigation";
-import { site } from "../data/site";
+import Button from "./Button";
 
 function Navbar() {
-  const [open, setOpen] = useState(false);
-
   return (
-    <header className="fixed top-0 left-0 w-full z-50">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+    <header className="fixed top-0 left-0 right-0 z-50 px-6 pt-5">
 
-        <nav className="mt-5 rounded-2xl border border-white/10 bg-slate-900/60 backdrop-blur-xl">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-2xl border border-slate-800 bg-slate-900/80 px-8 py-4 backdrop-blur-xl">
 
-          <div className="flex items-center justify-between px-6 py-4">
+        {/* Logo */}
 
-            {/* LOGO */}
+        <a
+          href="#"
+          className="logo-font text-4xl font-black text-white tracking-tight"
+        >
+          0xAHMETCAN
+        </a>
 
-            <a
-              href="#"
-              className="font-black text-2xl tracking-tight"
-            >
-              {site.name}
-            </a>
+        {/* Menu */}
 
-            {/* DESKTOP MENU */}
+        <div className="hidden items-center gap-10 lg:flex">
 
-            <div className="hidden md:flex gap-10">
+          <a href="#about" className="nav-link">
+            About
+          </a>
 
-              {navigation.map((item) => (
+          <a href="#experience" className="nav-link">
+            Experience
+          </a>
 
-                <a
-                  key={item.title}
-                  href={item.href}
-                  className="text-slate-300 hover:text-white transition"
-                >
-                  {item.title}
-                </a>
+          <a href="#projects" className="nav-link">
+            Projects
+          </a>
 
-              ))}
+          <a href="#ctf" className="nav-link">
+            Write-ups
+          </a>
 
-            </div>
+          <a href="#blog" className="nav-link">
+            Blog
+          </a>
 
-            {/* STATUS */}
+          <a href="#contact" className="nav-link">
+            Contact
+          </a>
 
-            <div className="hidden lg:flex items-center gap-2">
+        </div>
 
-              <div className="h-2 w-2 rounded-full bg-green-500 animate-pulse" />
+        {/* Right */}
 
-              <span className="text-sm text-slate-400">
+        <div className="flex items-center gap-4">
 
-                Available for Work
+          <button className="rounded-xl border border-slate-700 bg-slate-800 px-4 py-2 text-sm font-medium text-slate-300 transition hover:border-sky-500 hover:text-white">
+            EN
+          </button>
 
-              </span>
+          <div className="hidden rounded-full border border-green-500/20 bg-green-500/10 px-4 py-2 text-sm text-green-400 lg:flex items-center gap-2">
 
-            </div>
+            <span className="h-2 w-2 rounded-full bg-green-400 animate-pulse"></span>
 
-            {/* MOBILE */}
-
-            <button
-              onClick={() => setOpen(!open)}
-              className="md:hidden"
-            >
-
-              {open ? <X /> : <Menu />}
-
-            </button>
+            Open to Work
 
           </div>
 
-        </nav>
+        </div>
 
-      </div>
+      </nav>
+
     </header>
   );
 }

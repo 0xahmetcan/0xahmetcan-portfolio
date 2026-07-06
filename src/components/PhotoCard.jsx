@@ -29,7 +29,7 @@ function PhotoCard() {
 
         <div className="mt-3 flex items-center gap-2 text-sm text-slate-400">
           <MdLocationOn size={18} />
-          <span>Adana, Türkiye</span>
+          <span>Ankara, Türkiye</span>
         </div>
 
         {/* Status */}

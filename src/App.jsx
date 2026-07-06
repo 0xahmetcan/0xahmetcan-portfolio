@@ -14,15 +14,25 @@ function App() {
   return (
     <>
       <Navbar />
+
       <Hero />
+
       <About />
+
       <Skills />
+
       <Experience />
+
       <Education />
+
       <Projects />
+
       <CTFPlatforms />
+
       <Contact />
+
       <BlogPreview />
+
       <Footer />
     </>
   );
