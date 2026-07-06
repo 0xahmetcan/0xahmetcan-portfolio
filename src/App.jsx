@@ -6,8 +6,8 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import CTFPlatforms from "./components/CTFPlatforms";
-import Contact from "./components/Contact";
 import BlogPreview from "./components/BlogPreview";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -29,9 +29,9 @@ function App() {
 
       <CTFPlatforms />
 
-      <Contact />
-
       <BlogPreview />
+
+      <Contact />
 
       <Footer />
     </>
