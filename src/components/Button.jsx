@@ -1,6 +1,12 @@
-function Button({ children, variant = "primary" }) {
+function Button({
+  children,
+  variant = "primary",
+  href,
+  target,
+  download,
+}) {
   const base =
-    "px-7 py-3 rounded-xl font-semibold transition duration-300";
+    "inline-flex items-center justify-center px-7 py-3 rounded-xl font-semibold transition duration-300";
 
   const styles = {
     primary:
@@ -9,6 +15,20 @@ function Button({ children, variant = "primary" }) {
     secondary:
       "border border-slate-700 hover:border-sky-500 text-white",
   };
+
+  if (href) {
+    return (
+      <a
+        href={href}
+        target={target}
+        rel={target === "_blank" ? "noopener noreferrer" : undefined}
+        download={download}
+        className={`${base} ${styles[variant]}`}
+      >
+        {children}
+      </a>
+    );
+  }
 
   return (
     <button className={`${base} ${styles[variant]}`}>

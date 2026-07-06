@@ -63,17 +63,26 @@ function HeroContent() {
       </div>
 
       {/* Butonlar */}
-      <div className="mt-10 flex flex-wrap gap-5">
+     {/* Butonlar */}
 
-        <Button>
-          Download CV
-        </Button>
+<div className="mt-10 flex flex-wrap gap-5">
 
-        <Button variant="secondary">
-          Read Write-ups
-        </Button>
+  <Button
+    href="https://blog.0xahmetcan.com/wp-content/uploads/2026/07/ahmetcan_resume.pdf"
+    target="_blank"
+  >
+    Download CV
+  </Button>
 
-      </div>
+  <Button
+    variant="secondary"
+    href="https://blog.0xahmetcan.com"
+    target="_blank"
+  >
+    View Blog
+  </Button>
+
+</div>
 
     </div>
   );
