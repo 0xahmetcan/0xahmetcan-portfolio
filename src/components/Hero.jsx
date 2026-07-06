@@ -1,21 +1,22 @@
+import HeroContent from "./HeroContent";
+import Terminal from "./Terminal";
+
 function Hero() {
   return (
     <section className="min-h-screen flex items-center">
-      <div className="mx-auto max-w-7xl w-full px-6">
 
-        <div className="grid grid-cols-2 gap-12">
+      <div className="mx-auto max-w-7xl w-full px-8">
 
-          <div>
-            LEFT
-          </div>
+        <div className="grid lg:grid-cols-2 gap-20 items-center">
 
-          <div>
-            RIGHT
-          </div>
+          <HeroContent />
+
+          <Terminal />
 
         </div>
 
       </div>
+
     </section>
   );
 }
