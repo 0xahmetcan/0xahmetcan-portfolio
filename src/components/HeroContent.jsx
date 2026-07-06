@@ -4,38 +4,75 @@ function HeroContent() {
   return (
     <div>
 
-      <p className="text-sky-400 font-semibold mb-4">
+      {/* Badge */}
+      <div className="mb-6 inline-flex items-center rounded-full border border-sky-500/20 bg-sky-500/10 px-4 py-2 text-sm font-medium text-sky-400">
+        👋 Open to Junior Pentester Opportunities
+      </div>
+
+      {/* Ünvan */}
+      <p className="mb-4 text-sky-400 font-semibold tracking-wide uppercase">
         Junior Penetration Tester
       </p>
 
-      <h1 className="text-6xl font-black">
+      {/* Başlık */}
+      <h1
+        className="
+          logo-font
+          text-6xl
+          sm:text-7xl
+          lg:text-8xl
+          font-black
+          leading-none
+          tracking-tight
+          bg-gradient-to-r
+          from-white
+          via-slate-200
+          to-sky-400
+          bg-clip-text
+          text-transparent
+        "
+      >
         0xAHMETCAN
       </h1>
 
-      <p className="text-slate-400 text-xl leading-9 mt-8 max-w-xl">
-
-        Passionate about offensive security,
-
-        web application security,
-
-        Active Directory,
-
-        and CTF writeups.
-
+      {/* Açıklama */}
+      <p className="mt-8 max-w-xl text-lg leading-8 text-slate-400">
+        Passionate about offensive security, web application security, and
+        Active Directory assessments. I enjoy solving CTF challenges,
+        publishing technical write-ups, and continuously improving my
+        cybersecurity skills through hands-on labs and real-world scenarios.
       </p>
 
-      <div className="flex gap-5 mt-10">
+      {/* Teknolojiler */}
+      <div className="mt-8 flex flex-wrap gap-3">
+
+        <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
+          Web Security
+        </span>
+
+        <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
+          Active Directory
+        </span>
+
+        <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
+          Red Team
+        </span>
+
+        <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
+          CTF Player
+        </span>
+
+      </div>
+
+      {/* Butonlar */}
+      <div className="mt-10 flex flex-wrap gap-5">
 
         <Button>
-
           Download CV
-
         </Button>
 
         <Button variant="secondary">
-
-          Contact Me
-
+          Read Write-ups
         </Button>
 
       </div>

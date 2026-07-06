@@ -1,30 +1,39 @@
+import useTerminal from "../hooks/useTerminal";
+import { terminalLines } from "../data/terminal";
+
 function Terminal() {
+  const lines = useTerminal(terminalLines);
+
   return (
-    <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 shadow-xl">
+    <div className="rounded-2xl border border-slate-800 bg-slate-900 shadow-2xl overflow-hidden">
 
-      <p className="text-green-400">
+      {/* Header */}
 
-        $ whoami
+      <div className="flex items-center gap-2 border-b border-slate-800 px-5 py-3">
 
-      </p>
+        <div className="h-3 w-3 rounded-full bg-red-500" />
 
-      <br />
+        <div className="h-3 w-3 rounded-full bg-yellow-500" />
 
-      <p>Ahmet Can</p>
+        <div className="h-3 w-3 rounded-full bg-green-500" />
 
-      <p>Junior Penetration Tester</p>
+        <span className="ml-4 text-sm text-slate-400">
+          terminal@0xahmetcan
+        </span>
 
-      <br />
+      </div>
 
-      <p>Kali Linux ✔</p>
+      {/* Body */}
 
-      <p>Burp Suite ✔</p>
+      <div className="p-6 font-mono text-sm leading-7">
 
-      <p>Nmap ✔</p>
+        {lines.map((line, index) => (
+          <p key={index}>{line}</p>
+        ))}
 
-      <p>BloodHound ✔</p>
+        <span className="animate-pulse">█</span>
 
-      <p>Metasploit ✔</p>
+      </div>
 
     </div>
   );

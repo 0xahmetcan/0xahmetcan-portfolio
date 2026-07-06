@@ -1,0 +1,15 @@
+export const terminalLines = [
+  "$ whoami",
+  "Ahmet Can",
+  "",
+  "$ pwd",
+  "/home/0xahmetcan",
+  "",
+  "$ cat skills.txt",
+  "Web Application Security",
+  "Active Directory",
+  "Burp Suite",
+  "BloodHound",
+  "Impacket",
+  "Python",
+];
