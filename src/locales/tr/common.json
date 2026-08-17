@@ -9,47 +9,47 @@
     "opentowork": "İşe Açığım"
   },
 
-  "about": {
+ "about": {
   "badge": "Hakkımda",
-  "title": "Daha Güvenli Bir Dijital Dünya İnşa Etmeye Tutkuluyum",
+  "title": "Tehdit Tespiti, Olay Analizi ve Defansif Güvenlik Odaklı",
 
   "p1": {
-    "before": "Ben, ",
-    "highlight": "Siber Güvenlik Meraklısı",
-    "after": " olarak siber güvenliğe büyük ilgi duyuyor ve hem ofansif hem de defansif güvenlik alanındaki yetkinliklerimi sürekli geliştirmeye çalışıyorum. İlgi alanlarım arasında Web Uygulama Güvenliği, Active Directory Güvenliği, Güvenlik Operasyonları (SOC), Olay Müdahalesi, Threat Hunting, Zafiyet Analizi ve Sızma Testleri bulunmaktadır."
+    "before": "",
+    "highlight": "Security Operations ve Blue Team",
+    "after": " alanlarına odaklanan bir siber güvenlik uzmanıyım. Tehdit tespiti, güvenlik izleme, olay analizi, ağ güvenliği ve detection engineering alanlarında kendimi geliştiriyorum. Şüpheli aktiviteleri araştırma, güvenlik olaylarını ilişkilendirme, ağ trafiğini analiz etme ve saldırgan davranışlarını defansif bir bakış açısıyla değerlendirme konularına özellikle ilgi duyuyorum."
   },
 
   "p2": {
     "before": "",
-    "highlight": "SOITRON Cyber Security",
-    "after": " bünyesinde gerçekleştirdiğim 6 aylık uzun dönem staj sürecinde gerçek güvenlik olayları, SIEM teknolojileri, alarm doğrulama, olay inceleme ve profesyonel bir Güvenlik Operasyon Merkezi (SOC) içerisinde güvenlik izleme süreçlerinde aktif olarak görev alarak önemli deneyimler kazandım."
+    "highlight": "SOITRON Cyber Security bünyesindeki 6 aylık uzun dönem stajım",
+    "after": " süresince profesyonel bir Güvenlik Operasyon Merkezi (SOC) ortamında gerçek güvenlik olayları üzerinde çalışma fırsatı buldum. SIEM teknolojileri, alarm triage ve doğrulama, log analizi, IOC inceleme, olay analizi ve güvenlik izleme süreçlerinde uygulamalı deneyim kazandım."
   },
 
   "p3": {
-    "before": "Profesyonel deneyimimin yanı sıra Capture The Flag yarışmaları, ev laboratuvarı ortamları, güvenlik araştırmaları ve ",
-    "highlight1": "Bilişim Academy",
-    "middle": " ile ",
-    "highlight2": "Siber Vatan",
-    "after": " gibi eğitim programları sayesinde teknik yetkinliklerimi sürekli geliştiriyorum. Sürekli öğrenmenin, merak duygusunun ve uygulamalı çalışmanın başarılı bir siber güvenlik uzmanı olmanın temel taşları olduğuna inanıyorum."
+    "before": "SOC deneyimimin yanında network forensics, malware traffic analysis, SIEM incelemeleri ve detection engineering alanlarındaki teknik yetkinliklerimi uygulamalı laboratuvarlar ve projeler aracılığıyla geliştirmeye devam ediyorum. Bu çalışmalarımda ",
+    "highlight1": "Suricata, Wireshark, TShark ve SIEM platformları",
+    "middle": " gibi teknolojileri kullanırken analizlerimi ",
+    "highlight2": "MITRE ATT&CK",
+    "after": " gibi framework'lerle ilişkilendiriyorum. Hedefim yalnızca alarm inceleyen değil; tespitleri doğrulayabilen, saldırı aktivitelerini yeniden yapılandırabilen, kök nedeni araştırabilen ve aksiyona dönüştürülebilir güvenlik çıktıları üretebilen bir güvenlik analisti olmak."
   },
 
   "timeline": {
     "dev": {
-      "title": "Yazılım Geliştirme",
-      "desc": "Modern web uygulamaları geliştirerek ve programlama temellerimi güçlendirerek yazılım geliştirme yolculuğuma başladım."
+      "title": "Yazılım Mühendisliği Temeli",
+      "desc": "Yazılım geliştirme, otomasyon testleri, programlama ve web teknolojileri üzerinde çalışarak güçlü bir teknik temel oluşturdum."
     },
     "cyber": {
-      "title": "Siber Güvenlik Yolculuğu",
-      "desc": "Siber Vatan Programı'na katıldım, çeşitli siber güvenlik eğitimlerini tamamladım ve uygulamalı laboratuvar ortamları oluşturdum."
+      "title": "Siber Güvenliğe Geçiş",
+      "desc": "Siber Vatan ve çeşitli eğitim programlarıyla birlikte Linux, ağ teknolojileri, güvenlik temelleri ve uygulamalı laboratuvar çalışmalarına odaklanarak siber güvenlik alanına yöneldim."
     },
     "soitron": {
-      "title": "SOITRON Siber Güvenlik Stajı",
-      "desc": "Profesyonel bir SOC ortamında güvenlik alarmlarını analiz ettim, olay doğrulama süreçlerinde görev aldım, SIEM çözümlerini izledim ve deneyimli güvenlik analistleriyle birlikte çalıştım."
+      "title": "SOC Analyst Deneyimi — SOITRON",
+      "desc": "SIEM teknolojileri, güvenlik izleme, alarm triage, log analizi, IOC inceleme, olay doğrulama, MITRE ATT&CK ve escalation süreçlerinde uygulamalı SOC deneyimi kazandım."
     },
     "today": {
       "year": "Bugün",
-      "title": "Sürekli Gelişim",
-      "desc": "CTF platformları, sızma testi laboratuvarları, Active Directory ortamları, zararlı yazılım araştırmaları ve teknik blog yazılarıyla kendimi geliştirmeye devam ederken ileri seviye siber güvenlik sertifikalarına hazırlanıyorum."
+      "title": "Blue Team & Detection Engineering",
+      "desc": "SOC operasyonları, network forensics, malware traffic analysis, tehdit tespiti, olay analizi ve detection engineering alanlarında uygulamalı projeler ve teknik araştırmalarla uzmanlığımı derinleştiriyorum."
     }
   }
 },
@@ -222,26 +222,25 @@
 },
 
 "hero": {
-  "badge": "Junior Pentester Pozisyonlarına Açığım",
-  "position": "Junior Penetrasyon Test Uzmanı",
-
-  "description": "Ofansif güvenlik, web uygulama güvenliği ve Active Directory güvenliği alanlarına ilgi duyuyorum. CTF görevleri çözmekten, teknik write-up'lar hazırlamaktan ve uygulamalı laboratuvar ortamlarında kendimi sürekli geliştirerek gerçek dünya siber güvenlik senaryoları üzerinde çalışmaktan keyif alıyorum.",
-
-  "downloadCV": "CV'yi İndir",
-  "viewBlog": "Blogu Görüntüle",
+  "badge": "SOC / Blue Team Fırsatlarına Açığım",
+  "position": "SOC ANALİSTİ • BLUE TEAM",
+  "description": "Güvenlik operasyonları, tehdit tespiti, olay inceleme ve ağ güvenliği izleme alanlarına odaklanan bir siber güvenlik profesyoneliyim. Güvenlik olaylarını analiz ediyor, şüpheli ağ aktivitelerini inceliyor, alarmları doğruluyor ve uygulamalı SOC laboratuvarları ile güvenlik araştırmaları üzerinden tespit yeteneklerimi sürekli geliştiriyorum.",
 
   "skills": {
-    "web": "Web Güvenliği",
-    "ad": "Active Directory",
-    "redteam": "Red Team",
-    "ctf": "CTF Oyuncusu"
-  }
+    "soc": "SOC Operasyonları",
+    "siem": "SIEM & Tespit",
+    "incident": "Olay Müdahalesi",
+    "threat": "Threat Hunting"
+  },
+
+  "downloadCV": "CV'yi İndir",
+  "viewBlog": "Blogu Görüntüle"
 },
 
 "photo": {
-  "position": "Junior Penetrasyon Test Uzmanı",
+  "position": "Junior SOC Analisti",
   "location": "Ankara, Türkiye",
-  "status": "İş Fırsatlarına Açık"
+  "status": "İşe Açığım"
 },
 
 "projects": {
@@ -256,6 +255,11 @@
     "title": "0xPortfolio",
     "description": "React ve Tailwind CSS kullanılarak geliştirilen kişisel siber güvenlik portföyü."
   },
+
+  "agenttesla": {
+  "title": "AgentTesla Network Forensics & Suricata Detection Engineering",
+  "description": "Zararlı bir PCAP üzerinden AgentTesla tarzı malware ağ trafiğinin uçtan uca incelendiği kapsamlı bir SOC ve network forensics projesi. Çalışmada kanıt bütünlüğü doğrulama, protokol ve ağ analizi, FTP veri sızdırma aktivitesinin yeniden yapılandırılması, Suricata alarm triage, Emerging Threats imza doğrulama, özel IDS kuralı geliştirme ve tuning, IOC çıkarımı, saldırı zaman çizelgesi, MITRE ATT&CK eşleştirmesi ve olay değerlendirmesi gerçekleştirildi."
+},
 
   "soc": {
     "title": "SOC Log Analiz Aracı",

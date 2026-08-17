@@ -1,14 +1,17 @@
 const projects = (t) => [
   {
-    title: t("projectsData.portfolio.title"),
-    description: t("projectsData.portfolio.description"),
+    title: t("projectsData.agenttesla.title"),
+    description: t("projectsData.agenttesla.description"),
     technologies: [
-      "React",
-      "Tailwind CSS",
-      "Vite"
+      "Suricata",
+      "Wireshark / TShark",
+      "PCAP Analysis",
+      "Network Forensics",
+      "Detection Engineering",
+      "MITRE ATT&CK"
     ],
-    github: "https://github.com/0xahmetcan/0xahmetcan-portfolio",
-    demo: "https://0xahmetcan.com",
+    github: "https://github.com/0xahmetcan/agenttesla-network-forensics-suricata",
+    demo: null,
     featured: true
   },
 
@@ -20,8 +23,8 @@ const projects = (t) => [
       "QRadar",
       "Splunk"
     ],
-    github: "#",
-    demo: "#",
+    github: null,
+    demo: null,
     featured: true
   },
 
@@ -30,25 +33,26 @@ const projects = (t) => [
     description: t("projectsData.ad.description"),
     technologies: [
       "Windows Server",
+      "Active Directory",
       "BloodHound",
       "Impacket"
     ],
-    github: "#",
-    demo: "#",
-    featured: true
+    github: null,
+    demo: null,
+    featured: false
   },
 
   {
-    title: t("projectsData.scanner.title"),
-    description: t("projectsData.scanner.description"),
+    title: t("projectsData.portfolio.title"),
+    description: t("projectsData.portfolio.description"),
     technologies: [
-      "Python",
-      "Sockets",
-      "Nmap"
+      "React",
+      "Tailwind CSS",
+      "Vite"
     ],
-    github: "#",
-    demo: "#",
-    featured: true
+    github: "https://github.com/0xahmetcan/0xahmetcan-portfolio",
+    demo: "https://0xahmetcan.com",
+    featured: false
   }
 ];
 

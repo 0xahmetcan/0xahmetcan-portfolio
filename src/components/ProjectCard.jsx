@@ -8,7 +8,6 @@ function ProjectCard({
   github,
   demo,
 }) {
-
   const { t } = useTranslation();
 
   return (
@@ -23,7 +22,6 @@ function ProjectCard({
       </p>
 
       <div className="mt-8 flex flex-wrap gap-3">
-
         {technologies.map((tech) => (
           <span
             key={tech}
@@ -32,30 +30,33 @@ function ProjectCard({
             {tech}
           </span>
         ))}
-
       </div>
 
-      <div className="mt-10 flex gap-4">
+      <div className="mt-10 flex flex-wrap gap-4">
 
-        <a
-          href={github}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-xl bg-slate-800 px-5 py-3 text-slate-300 transition hover:bg-sky-500 hover:text-white"
-        >
-          <FaGithub />
-          GitHub
-        </a>
+        {github && (
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-xl bg-slate-800 px-5 py-3 text-slate-300 transition hover:bg-sky-500 hover:text-white"
+          >
+            <FaGithub />
+            GitHub
+          </a>
+        )}
 
-        <a
-          href={demo}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded-xl border border-slate-700 px-5 py-3 text-slate-300 transition hover:border-sky-500 hover:text-sky-400"
-        >
-          <FaExternalLinkAlt />
-          {t("projects.liveDemo")}
-        </a>
+        {demo && (
+          <a
+            href={demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-xl border border-slate-700 px-5 py-3 text-slate-300 transition hover:border-sky-500 hover:text-sky-400"
+          >
+            <FaExternalLinkAlt />
+            {t("projects.liveDemo")}
+          </a>
+        )}
 
       </div>
 

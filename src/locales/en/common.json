@@ -9,47 +9,47 @@
     "opentowork": "Open to Work"
   },
 
-  "about": {
+ "about": {
   "badge": "About Me",
-  "title": "Passionate About Building a Safer Digital World",
+  "title": "Focused on Threat Detection, Investigation & Defensive Security",
 
   "p1": {
-    "before": "I am a ",
-    "highlight": "Cyber Security Enthusiast",
-    "after": " who is deeply passionate about cybersecurity and continuously improving my offensive and defensive security skills. My interests include Web Application Security, Active Directory Security, Security Operations, Incident Response, Threat Hunting, Vulnerability Assessment, and Penetration Testing."
+    "before": "I am a cybersecurity professional focused on ",
+    "highlight": "Security Operations and Blue Team",
+    "after": ", with a strong interest in threat detection, security monitoring, incident investigation, network security, and detection engineering. I continuously develop my ability to investigate suspicious activity, correlate security events, analyze network traffic, and understand attacker behavior from a defensive perspective."
   },
 
   "p2": {
     "before": "During my ",
     "highlight": "6-month long-term internship at SOITRON Cyber Security",
-    "after": ", I gained valuable hands-on experience by working with real-world security events, SIEM technologies, alert validation, incident investigation, and security monitoring within a professional Security Operations Center (SOC)."
+    "after": ", I gained hands-on experience in a professional Security Operations Center (SOC), working with real-world security events, SIEM technologies, alert triage and validation, log analysis, IOC investigation, incident analysis, and security monitoring processes."
   },
 
   "p3": {
-    "before": "Alongside professional experience, I actively improve my practical skills through Capture The Flag competitions, home laboratory environments, security research, and structured cybersecurity programs including ",
-    "highlight1": "Bilişim Academy",
-    "middle": " and ",
-    "highlight2": "Siber Vatan",
-    "after": ". I strongly believe that continuous learning, curiosity, and hands-on practice are the foundation of becoming a successful cybersecurity professional."
+    "before": "Alongside my SOC experience, I continue developing practical skills in network forensics, malware traffic analysis, SIEM investigation, and detection engineering through hands-on labs and projects using technologies such as ",
+    "highlight1": "Suricata, Wireshark, TShark and SIEM platforms",
+    "middle": ", while applying frameworks such as ",
+    "highlight2": "MITRE ATT&CK",
+    "after": ". My goal is to develop into a security analyst capable of not only identifying alerts, but also validating detections, reconstructing attack activity, understanding root cause, and producing actionable security intelligence."
   },
 
   "timeline": {
     "dev": {
-      "title": "Software Development",
-      "desc": "Started my journey in software development, building modern web applications and strengthening programming fundamentals."
+      "title": "Software Engineering Foundation",
+      "desc": "Built my technical foundation through software development, automation testing, programming, web technologies, and hands-on engineering experience."
     },
     "cyber": {
-      "title": "Cyber Security Journey",
-      "desc": "Participated in the Turkey Cyber Homeland (Siber Vatan) Program and completed various cybersecurity training programs while building practical laboratory environments."
+      "title": "Transition to Cyber Security",
+      "desc": "Shifted my focus toward cybersecurity through structured training, hands-on laboratories, networking, Linux, security fundamentals, and the Siber Vatan program."
     },
     "soitron": {
-      "title": "SOITRON Cyber Security Internship",
-      "desc": "Worked within a professional SOC environment, analyzing security alerts, validating incidents, monitoring SIEM solutions, and collaborating with experienced security analysts."
+      "title": "SOC Analyst Experience — SOITRON",
+      "desc": "Gained hands-on SOC experience working with SIEM technologies, security monitoring, alert triage, log analysis, IOC investigation, incident validation, MITRE ATT&CK, and escalation processes."
     },
     "today": {
       "year": "Today",
-      "title": "Continuous Growth",
-      "desc": "Expanding my expertise through CTF platforms, penetration testing labs, Active Directory environments, malware research, and technical blogging while preparing for advanced cybersecurity certifications."
+      "title": "Blue Team & Detection Engineering",
+      "desc": "Deepening my expertise in SOC operations, network forensics, malware traffic analysis, threat detection, incident investigation, and detection engineering through hands-on security projects and research."
     }
   }
 },
@@ -222,24 +222,23 @@
 },
 
 "hero": {
-  "badge": "Open to Junior Pentester Opportunities",
-  "position": "Junior Penetration Tester",
-
-  "description": "Passionate about offensive security, web application security, and Active Directory assessments. I enjoy solving CTF challenges, publishing technical write-ups, and continuously improving my cybersecurity skills through hands-on labs and real-world scenarios.",
-
-  "downloadCV": "Download CV",
-  "viewBlog": "View Blog",
+  "badge": "Open to SOC / Blue Team Opportunities",
+  "position": "SOC ANALYST • BLUE TEAM",
+  "description": "Cybersecurity professional focused on Security Operations, threat detection, incident investigation, and network security monitoring. I analyze security events, investigate suspicious network activity, validate alerts, and continuously develop detection capabilities through hands-on SOC labs and security research.",
 
   "skills": {
-    "web": "Web Security",
-    "ad": "Active Directory",
-    "redteam": "Red Team",
-    "ctf": "CTF Player"
-  }
+    "soc": "SOC Operations",
+    "siem": "SIEM & Detection",
+    "incident": "Incident Response",
+    "threat": "Threat Hunting"
+  },
+
+  "downloadCV": "Download CV",
+  "viewBlog": "View Blog"
 },
 
 "photo": {
-  "position": "Junior Penetration Tester",
+  "position": "Junior SOC Analyst",
   "location": "Ankara, Türkiye",
   "status": "Open to Work"
 },
@@ -256,6 +255,11 @@
     "title": "0xPortfolio",
     "description": "Personal cybersecurity portfolio built with React and Tailwind CSS."
   },
+
+  "agenttesla": {
+  "title": "AgentTesla Network Forensics & Suricata Detection Engineering",
+  "description": "End-to-end investigation of AgentTesla-style malware network traffic from a malicious PCAP. The project covers evidence integrity verification, protocol and network analysis, FTP data exfiltration reconstruction, Suricata alert triage, Emerging Threats signature validation, custom IDS rule development and tuning, IOC extraction, attack timeline reconstruction, MITRE ATT&CK mapping, and incident assessment."
+},
 
   "soc": {
     "title": "SOC Log Analyzer",

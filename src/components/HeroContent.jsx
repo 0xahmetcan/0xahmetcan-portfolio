@@ -2,26 +2,22 @@ import { useTranslation } from "react-i18next";
 import Button from "./Button";
 
 function HeroContent() {
-
   const { t } = useTranslation();
 
   return (
     <div>
 
       {/* Badge */}
-
       <div className="mb-6 inline-flex items-center rounded-full border border-sky-500/20 bg-sky-500/10 px-4 py-2 text-sm font-medium text-sky-400">
-        👋 {t("hero.badge")}
+        🛡️ {t("hero.badge")}
       </div>
 
-      {/* Title */}
-
+      {/* Position */}
       <p className="mb-4 font-semibold uppercase tracking-wide text-sky-400">
         {t("hero.position")}
       </p>
 
       {/* Name */}
-
       <h1
         className="
           logo-font
@@ -42,35 +38,32 @@ function HeroContent() {
       </h1>
 
       {/* Description */}
-
       <p className="mt-8 max-w-xl text-lg leading-8 text-slate-400">
         {t("hero.description")}
       </p>
 
       {/* Skills */}
-
       <div className="mt-8 flex flex-wrap gap-3">
 
         <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
-          {t("hero.skills.web")}
+          {t("hero.skills.soc")}
         </span>
 
         <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
-          {t("hero.skills.ad")}
+          {t("hero.skills.siem")}
         </span>
 
         <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
-          {t("hero.skills.redteam")}
+          {t("hero.skills.incident")}
         </span>
 
         <span className="rounded-full border border-slate-700 bg-slate-800 px-4 py-2 text-sm text-slate-300">
-          {t("hero.skills.ctf")}
+          {t("hero.skills.threat")}
         </span>
 
       </div>
 
       {/* Buttons */}
-
       <div className="mt-10 flex flex-wrap gap-5">
 
         <Button
